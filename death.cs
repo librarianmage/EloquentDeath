@@ -1,9 +1,11 @@
 using HarmonyLib;
+using XRL;
 
 namespace EloquentDeath.HarmonyPatches
 {
-    [HarmonyPatch(typeof(XRL.CheckpointingSystem),nameof(XRL.CheckpointingSystem.ShowDeathMessage))]
-    class LorePatcher
+    [HarmonyPatch(typeof(CheckpointingSystem))]
+    [HarmonyPatch(nameof(CheckpointingSystem.ShowDeathMessage))]
+    class DeathMessagePatcher
     {
         static void Prefix(ref string message)
         {
