@@ -1,0 +1,8 @@
+{
+    "WorkshopId": 2812445094,
+    "Title": "Eloquent Death",
+    "Description": "A mod that borrows Crowsong's eloquent metaphor for death and applies it to your own.\n\nTested on game version 203.38\n\nGitHub link: https://github.com/librarianmage/EloquentDeath",
+    "Tags": "Stable,Beta,Death,Script",
+    "Visibility": "2",
+    "ImagePath": "icon.png"
+}
